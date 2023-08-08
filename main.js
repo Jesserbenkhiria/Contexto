@@ -30,6 +30,9 @@ function check(word,input){
 //check if all the letters like  the given 
 function checkexist(word,input){
     var check = true 
+    if(input.length>word.length){
+        return false
+    }
     for(var i=0 ; i<word.length;i++){
         if(input.indexOf(word[i])=== -1){
             check = false  
