@@ -44,6 +44,9 @@ body{
     
 }
 
+.player ul{
+    list-style-type: none;
+}
 
 .player ul li {
     border-radius: 12px;
